@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@reference "tailwindcss";
+
+.app-container {
+    @apply min-h-screen flex items-center justify-center p-4 font-sans text-gray-800;
+}
+
+.form-container {
+  @apply flex justify-center;
+}
+/* Estilos para la tarjeta del formulario y la lista */
+.form-card {
+    @apply w-80 max-w-2xl m-4 bg-white p-6 md:p-10 rounded-xl shadow-2xl;
+}
+
+.form-list {
+      @apply m-4 bg-white p-6 rounded-xl shadow-2xl text-center w-50;
+  
+}
+
+/* Estilos para el título principal */
+.notespad-title {
+    @apply text-4xl font-bold mb-8 text-center text-sky-800;
+}
+
+/* Estilos para el fondo del cuerpo de la página */
+body {
+    background-color: #e0f2fe; /* Color de fondo azul claro */
+}

@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@reference "tailwindcss";
+
+.form-input {
+    @apply w-full p-3 my-1 resize-none border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-500 transition duration-300;
+}
+
+/* Estilos para el botón del formulario */
+.form-button {
+    @apply w-full bg-sky-600 cursor-pointer text-white font-semibold p-3 rounded-lg hover:bg-sky-700 transition duration-300;
+}
+
+/* Estilos para el contenedor de la lista */
+.list-container {
+    @apply mt-8 border-t border-gray-200 pt-6;
+}
+
+.label {
+    @apply text-gray-800 font-semibold;
+}
+.delete-button {
+  @apply absolute text-xs top-2 right-2 bg-white text-red-500 border border-red-500 rounded-full p-1 transition-colors duration-300 hover:bg-red-500 hover:text-white cursor-pointer;
+}
+
