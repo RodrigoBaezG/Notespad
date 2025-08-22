@@ -1,7 +1,6 @@
 {
   "name": "notespad",
   "private": true,
-  "homepage": "https://RodrigoBaezG.github.io/Notespad",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
